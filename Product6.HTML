@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallel ASE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+.header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      border-left: 6px solid #3498db;
+      padding-left: 10px;
+      margin-top: 40px;
+      font-size: 1.8em;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 1.1em;
+      color: #555;
+    }
+    .solution-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .solution-images img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+      .solution-images {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Examples of New Product Development</h1>
+    New Generation Automated Solvent Extraction
+  </div>
+
+  <div class="container">
+    <section id="challenge">
+      <h2>Challenge</h2>
+      <p>Previous generation automated solvent extraction units were either sequential or manual and required a lot of time to process samples. For some applications the only control available for reducing the solvent uptake was by reducing the sample size via a smaller cell size. However this approach had impact on the detection limits and in some instances for compounds found in the environment the matrix effects mandated higher levels of samples. Additionally after a sequential process the sample extracts required evaporation or concentration and required additional equipment and added labor to process</p>
+    </section>
+
+    <section id="solution">
+      <h2>Solution</h2>
+      <p> Several solutions were explored to address the above challenges. A new mode of gas assisted extraction that lowered the solvent uptake and leverage the gas diffusion to extract the analytes and lowered the solvent usage under all sample size conditions. A new mode of pseudo parallel extraction was pursued to address the limitation of the sequential mode of extraction. The cost of implementation was reduced by pursuing the pseudo parallel in place of true parallel. An evaporation routine was added with end point detection using a camera interface and machine learning. Automation was conferred by the use of a gantry and a barcode based automated method installation was pursued. </p>
+      <div>
+<img src="images/Extreva.jpg" alt=ERS Suppressor width = "600">
+<figcaption>Figure 1: EXTREVA ASE Accelerated Solvent Extractor - The new sample to vial module! </figcaption>
+</figure>
+<img src="images/Extreva inside.jpg" alt="ERS Components Image 2" width = "540">
+<figcaption>Figure 2: Extreva details of the layout with key components </figcaption>
+</figure> 
+<img src="images/Parallel Extraction and Evaporation.jpg" alt="ERS Components Image 2" width = "525"><figcaption>Figure 3: Parallel extraction and collection of the extracts are shown </figcaption>
+</figure>
+<img src="images/Endpoint Detection.jpg" alt="ERS Team Image 3" width = "540">
+<figcaption>Figure 4: End point detection for the evaporation </figcaption>
+</figure>
+      </div>
+    </section>
+
+    <section id="innovation">
+      <h2>Innovation</h2>
+      <p>Several patented technologies are evident in the design. The key innovations are a) Parallel Extraction to expedite sample processing b) integrated evaporation to complete the workflow c) Automated level sensing via machine learning and auto sensing d) New gas assisted extraction reducing solvent usage e) Modern GUI with a barcode based deployment of methods </p>
+    </section>
+
+    <section id="value">
+      <h2>Value</h2>
+      <p>The biggest value is the walkaway automation from loading the sample to collecting the concentrated extract after evaporation to the programmed level. Other values are apparent from the write up such as throughput, reduction in solvent usage, reducing errors and conferring full automation for sample preparation. </p>
+    </section>
+  </div>
+</body>
+</html>
